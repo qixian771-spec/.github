@@ -2,6 +2,8 @@
 
 供账号下各仓库引用的统一标准。目标是让AI在缺少历史聊天时，也能先审查实际实现，补齐执行编排、测试和验收，再按已有授权提交。
 
+**主要读者和执行者都是AI。** AI应直接完成授权内工作；文档提供输入来源、工具动作、成功条件和失败停止路径。用户只处理必要的输入、登录或授权决策，不承担默认的逐步操作。对人保留简短结果与证据摘要。
+
 **统一入口：[AI_DELIVERY_STANDARD.md](AI_DELIVERY_STANDARD.md)**
 
 ```mermaid
@@ -24,6 +26,7 @@ flowchart LR
 | [仓库AGENTS引用入口](templates/repository-AGENTS.md) | 合并到具体仓库的AI说明，不覆盖已有内容 |
 | [任务卡模板](templates/task-card.md) | 每个任务和里程碑的证据结构 |
 | [初始交付记录](docs/initial-delivery.md) | 本次设置的范围、任务卡及验证 |
+| [AI执行优先修订](docs/ai-first-delivery.md) | 执行主体、用户介入边界与本次验收 |
 
 ## 以后怎么用
 
