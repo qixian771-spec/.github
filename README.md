@@ -27,6 +27,7 @@ flowchart LR
 | [任务卡模板](templates/task-card.md) | 每个任务和里程碑的证据结构 |
 | [初始交付记录](docs/initial-delivery.md) | 本次设置的范围、任务卡及验证 |
 | [AI执行优先修订](docs/ai-first-delivery.md) | 执行主体、用户介入边界与本次验收 |
+| [各仓库引用接入](docs/repository-rollout.md) | 17个既有仓库的接入范围、保留原规则核验与公开提交证据 |
 
 ## 以后怎么用
 
@@ -34,7 +35,7 @@ flowchart LR
 
 > 开始修改和提交前，请读取 https://github.com/qixian771-spec/.github/blob/main/AI_DELIVERY_STANDARD.md ，按标准自检。缺失项在已授权范围内补全；不能执行的明确列出原因，不把未执行写成通过。最终用内联表格或Mermaid交付。
 
-也可以把引用入口合并进某个仓库的AGENTS.md，让支持该文件的AI在该仓库工作时看到它。本次没有批量修改其他仓库。
+也可以把引用入口合并进某个仓库的AGENTS.md，让支持该文件的AI在该仓库工作时看到它。2026-10-12已按用户明确授权为当时其余17个仓库接入，保留原规则；详见接入记录。以后新建仓库仍需接入，此记录不代表自动覆盖未来仓库。
 
 ## 什么会自动显示，什么不会
 
